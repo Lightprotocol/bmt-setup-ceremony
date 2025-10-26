@@ -56,23 +56,6 @@ git commit -m "Add attestation for <your_contribution_id>"
 shasum -a 256 $HASH_FILE
 ```
 
-### Verify the entire ceremony chain
-
-Anyone can verify all contributions in the ceremony:
-
-```bash
-git clone https://github.com/lightprotocol/bmt-setup-ceremony
-cd bmt-setup-ceremony
-
-# Verify all contributions (downloads from GCS, requires read access)
-./verify_chain.sh
-
-# Or verify up to a specific contribution
-./verify_chain.sh light-protocol-proving-keys 0003_swen
-```
-
-This script:
-
 ### For Coordinators
 
 #### 1. Initial Setup
