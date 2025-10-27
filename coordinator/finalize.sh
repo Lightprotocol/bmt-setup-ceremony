@@ -18,7 +18,7 @@ CONTRIBUTIONS_DIR="$(cd "$SCRIPT_DIR/../contributions" && pwd)"
 CEREMONY_KEYS_DIR="$(cd "$SCRIPT_DIR/../proving-keys" && pwd)"
 CEREMONY_R1CS_DIR="$SCRIPT_DIR/../ceremony/r1cs"
 OUTPUT_DIR="$(cd "$SCRIPT_DIR/../light-protocol-keys" && pwd)"
-LIGHT_PROVER_REL="../../light-protocol/prover/server"
+LIGHT_PROVER_REL="../../light-protocol-2/prover/server"
 if [[ -d "$SCRIPT_DIR/$LIGHT_PROVER_REL" ]]; then
     LIGHT_PROVER="$(cd "$SCRIPT_DIR/$LIGHT_PROVER_REL" && pwd)"
     PROVING_KEYS_DEST="$LIGHT_PROVER/proving-keys"
@@ -27,6 +27,7 @@ else
     PROVING_KEYS_DEST=""
 fi
 SETUP_BIN="$SCRIPT_DIR/../semaphore-mtb-setup/semaphore-mtb-setup"
+CEREMONY_EVALS_DIR="$(cd "$SCRIPT_DIR/../contributor/evals" && pwd)"
 
 # Parse arguments
 CONTRIB_ID="${1:-}"
@@ -222,6 +223,16 @@ echo "Step 3: Building .key files..."
 echo ""
 
 cd "$LIGHT_PROVER"
+
+# Ensure evals are accessible from prover directory
+if [[ -d "$CEREMONY_EVALS_DIR" ]]; then
+    if [[ ! -e "evals" ]]; then
+        echo "  Linking ceremony evals directory..."
+        ln -s "$CEREMONY_EVALS_DIR" evals
+    fi
+else
+    echo "  Warning: Ceremony evals directory not found at $CEREMONY_EVALS_DIR"
+fi
 
 total_keys=0
 success_keys=0
