@@ -30,3 +30,8 @@ check_files.sh
 **/ceremony_contribution_*/
 
 semaphore-mtb-setup/
+
+ceremony-keys/batch/*
+ceremony-keys/v1/*
+ceremony-keys/v2/*
+**/evals
