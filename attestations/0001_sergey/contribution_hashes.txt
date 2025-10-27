@@ -1,0 +1,35 @@
+Contribution: 0001_sergey
+Contributor: sergey
+Date: Fri Oct  3 15:39:11 UTC 2025
+
+Circuit contributions:
+v1_combined_26_1_1: Contribution Hash :=  fa28b0d4039fd4796ac6a3b8b1033f62321162b8c7d49564b34949585ef35df7
+v1_combined_26_1_2: Contribution Hash :=  809e9f42df51303fe49f67d443520e899dd63d9b2c86e6def6fb0778c609ddf1
+v1_combined_26_1_4: Contribution Hash :=  507d37e8733537b826af456e0ddfa5a4e969cf619a1a8b61da53e4ca0f65f721
+v1_combined_26_1_8: Contribution Hash :=  395940343bf58ccd1ae1e04b39853ab4cebd4e451bb823f937a23a3c83ea4cf2
+v1_combined_26_2_1: Contribution Hash :=  086c57431f1d9ad4e90d3904b0054e43bb756963b267ecbcdf6f5f98a29a6f5f
+v1_combined_26_2_2: Contribution Hash :=  0f315cf3fa34c9aada36e66fd0db355cecd9d6ade37a98155b739546002eecda
+v1_combined_26_2_4: Contribution Hash :=  f3483bb10b3f43e3e885841a4aa5ddaf0c82690996669478d00bbf7d5ab10dbc
+v1_combined_26_2_8: Contribution Hash :=  6b4fbabaa15fdb8b95050beb3be960d4695e5ea57376160d1c13caa3059b1502
+v1_combined_26_3_1: Contribution Hash :=  0c96a99ee57bfd128e3250203a7ebd37a0dc2d51fa7633d4dc54781b48c6f909
+v1_combined_26_3_2: Contribution Hash :=  fcf1d285b22a244f27dd9b279fd4b4803b3c363f9fd2a9b1b978e732227d72d0
+v1_combined_26_3_4: Contribution Hash :=  fe8d9508b2b5d997a341be59580d79af74bb698ce7d7236b1ec03160e17913b2
+v1_combined_26_3_8: Contribution Hash :=  51bf15b823b567f4183f24df2e14692405cbfde2d44085855c533d88ad2372b1
+v1_combined_26_4_1: Contribution Hash :=  a0205180734b293ac691acb02dbd809875684f41299518899a3f1ed23fd3c94d
+v1_combined_26_4_2: Contribution Hash :=  0ae82d6ade009644ee198cf7871233e4f5c215bbc75739da5da459e4fd697b6e
+v1_combined_26_4_4: Contribution Hash :=  6d400363c32e87d17c1712c10101ec9944171c3092f3c4d321f595f709174ecf
+v1_combined_26_4_8: Contribution Hash :=  dfd5cc8d223e7ea9026d94bde97f4bfe87e790683e028292350add5083d75968
+v1_combined_26_8_1: Contribution Hash :=  938fc279e3ab5d1b1585145ec75d02fa752cfe4afce293a6817f068978f878da
+v1_combined_26_8_2: Contribution Hash :=  412ff66dc964901599b6356b8530b42f4b946fa2d96cf9b60e106cd36b1087ea
+v1_combined_26_8_4: Contribution Hash :=  68bdd2131346e670ba9f5a457a63ca13a8f288faecb64c66bf6b1082477510cd
+v1_combined_26_8_8: Contribution Hash :=  4f3610a0d33f702a721aa3b674beebcb4bb4b7a863cc4b5d83a28a1d1e66fd68
+v1_inclusion_26_1: Contribution Hash :=  24b15ea8edf7eeaded35ede4a19ab34abe66150628b78650dde81f622c7f10a7
+v1_inclusion_26_2: Contribution Hash :=  704756eb9567b214c357f05d441a27702773234f0a457c2358276d0bb361d98b
+v1_inclusion_26_3: Contribution Hash :=  56fd06e06021d38f3fc610587e30f0aa3f0e5cf07036d2d1a6ad8523e3847354
+v1_inclusion_26_4: Contribution Hash :=  32de1a139f85780f8436ca1a3df7187db4c74744453065f99d626e60f3d6281b
+v1_inclusion_26_8: Contribution Hash :=  4e65c0b5a28dffdfb80bbe4fe4e409314dd134814c6a1c7d28c6b8a57c0cbe3b
+v1_non-inclusion_26_1: Contribution Hash :=  f3272edd4a1bb73a9ad17954143a90134793a8e3fdcad3571eb8a012d630a02a
+v1_non-inclusion_26_2: Contribution Hash :=  ec8150649fb0e49a772b520002ca0e4c37ee77da85556b9698d78110faff8f09
+v1_non-inclusion_26_3: Contribution Hash :=  490b7729df049e0785b2ea7846ce2576839c4d4f360ac0873a2866bb842ea290
+v1_non-inclusion_26_4: Contribution Hash :=  1d67a25c28cba4329df83e7501c79c229f8fcf0cf92264bf283a718ed25cf9b8
+v1_non-inclusion_26_8: Contribution Hash :=  3cb087b852122b83490dd88915ecaaf2207a8b50703dbf17966248df95a5fc11
