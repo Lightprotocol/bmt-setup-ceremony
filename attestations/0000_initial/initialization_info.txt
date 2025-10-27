@@ -1,0 +1,16 @@
+zkCompression Ceremony Initialization
+=====================================
+Date: Wed Oct  1 09:06:22 AM UTC 2025
+
+Initialized circuits:
+  V1 circuits: 30
+  V2 circuits: 68
+  Batch circuits: 3
+  Total: 101
+
+PTAU files used:
+  V1/V2: PTAU 19 (supports up to 524k constraints)
+  Batch: PTAU 24 (supports up to 16M constraints)
+
+This is the initial trusted setup contribution.
+All subsequent contributions will build upon this.
